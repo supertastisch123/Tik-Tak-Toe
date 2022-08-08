@@ -1,0 +1,109 @@
+body {
+	background-color: #5a5a5a;
+}
+
+#anzeige{
+	position: absolute;
+	top: 87%;
+	left: 45%;
+	width:100px
+
+}
+#anzeige.p{
+	float:left
+
+}
+
+#ueberschrift {
+	position: absolute;
+	top: 10%;
+	left: 45%;
+
+}
+
+
+.feld {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50, -50);
+	width: 600px;
+	height: 600px;
+	margin-top: -280px;
+	margin-left: -300px;
+
+
+}
+
+.test {
+	float: left;
+	width: 32.78%;
+	height: 32.78%;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+}
+
+.test.oben {
+	border-bottom-style: solid;
+
+}
+
+.test.unten {
+
+	border-top-style: solid;
+
+}
+
+.test.links {
+
+	border-right-style: solid;
+
+}
+
+.test.rechts {
+
+	border-left-style: solid;
+
+}
+
+.x {
+	position: relative;
+
+}
+
+.x::before {
+	position: absolute;
+	content: "";
+	background-color: white;
+	left: 90px;
+	top: 20px;
+	width: 20px;
+	height: 160px;
+	transform: rotate(-45deg);
+
+}
+
+.x::after {
+	position: absolute;
+	content: "";
+	background-color: white;
+	left: 90px;
+	top: 20px;
+	width: 20px;
+	height: 160px;
+	transform: rotate(45deg);
+}
+
+.o {
+	margin-left: 13px;
+	margin-top: 13px;
+	left: 16.666666667%;
+    top: 16.666666667%;
+    width: 66.666666667%;
+    height: 66.666666667%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 20px solid #fff;
+}
